@@ -1,0 +1,6 @@
+COURSE = cse107
+GROUP_NAME = donovan_griego
+ASSIGNMENT = lab9
+TARGETS = readscores.py README.md word_count.py simplediff.py design
+zip: $(TARGETS)
+	zip $(COURSE)_$(GROUP_NAME)_$(ASSIGNMENT).zip $(TARGETS)

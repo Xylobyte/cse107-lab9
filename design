@@ -1,0 +1,8 @@
+To get a good word difference program I am going to approach it like the following:
+
+Ask user for file names
+Open files and handle any exceptions with opening them
+Read the files line by line
+for each line compare each character and make note of the differences in a list
+when outputting the differences print the tag along with the line
+Maybe: print '^' carrot symbol underneath the characters found to be different
